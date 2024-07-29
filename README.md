@@ -13,7 +13,7 @@
 - 首先下载[Inno Setup](https://jrsoftware.org/isinfo.php)并安装。
 - 下载[源代码](https://github.com/SmallHy6/SCS-Fmod-Plugin/archive/refs/heads/main.zip)并解压到您的文件夹。
 - 使用Inno Setup 打开位于./Iss文件夹内的最新版本Iss文件。
-- 编译导出文件即可
+- 编译导出文件即可。
 ### 4.文件夹结构
 ```Pascal
 <.\Sources>
@@ -31,8 +31,87 @@
 ├──Releases //导出安装包
 │  └──*.exe //安装包
 ├──Resources //内容文件
-│  └──
+│  ├──Bin //插件目录
+│  ├──Engine //引擎声音
+│  └──Nav //导航声音
 ├──Texture //贴图
 │  ├──Audio //音频贴图
 │  └──Logo //标志
 └──Readme.md //项目说明
+```
+### 5.支持的组件
+- 引擎
+- 内部声音
+- 导航
+### 6.支持的功能
+-    | **插件安装目录检测**| ✅
+-    | **自动获取游戏目录**| ✅
+-    | **自动记忆音量选择**| ❌
+-    | **背景音乐调整控件**| ❌
+-    | **播放背景音乐**    | ✅
+-    | **插件重复检测**    | ✅
+-    | **清理安装残留**    | ✅
+-    | **调整插件声音**    | ✅
+-    | **自动激活插件**    | ✅
+### 7.关于我们
+- 欢迎加入中国ACC车队!
+- Q:466438938。
+
+## [English]
+### 1.Component
+- [Inno Setup](https://jrsoftware.org/isinfo.php)
+- [Ts-Fmod-Plugin](https://github.com/dariowouters/ts-fmod-plugin)
+### 2.Description
+- This ia a `Inno Setup` project that developed an audio installer to facilitate debugging issues when installing audio plugins for major players.
+- This project uses Inno Setup as the software package, and the programming language is`Pascal`and`Batch`.
+- [Releases](https://github.com/SmallHy6/SCS-Fmod-Plugin/releases/latest) Download here!
+- [How to use here](https://github.com/SmallHy6/SCS-Fmod-Plugin?tab=readme-ov-file#HowToUse).
+- [Advanced usage here](https://github.com/dariowouters/ts-fmod-plugin?tab=readme-ov-file#how-to-use).
+### 3.HowToUse
+- First Download [Inno Setup](https://jrsoftware.org/isinfo.php) and Install.
+- Download [Sources](https://github.com/SmallHy6/SCS-Fmod-Plugin/archive/refs/heads/main.zip) and decompression it.
+- Use `Inno Setup` Open `./Iss ` Folder .Iss file.
+- Compile and export.
+### 4.Correct folder structure:
+```Pascal
+<.\Sources>
+├──Batch
+├──Iss
+├──Language
+│  ├──ChineseSimplified //中文
+│  ├──ChineseTraditional //繁體中文
+│  └──English //English
+├──License
+│  └──License.txt //Proc License
+├──Media //Media
+│  └──BG //Background Music
+│     └──*.mp3
+├──Releases
+│  └──*.exe
+├──Resources
+│  ├──Bin //PluginFolder
+│  ├──Engine //EngineSound
+│  └──Nav //NavigationSound
+├──Texture
+│  ├──Audio
+│  └──Logo
+└──Readme.md
+```
+### 5.Supported components
+- Engine
+- Interior
+- Navigation
+### 6.支持的功能
+-    | **Plugin installation directory detection**| ✅
+-    | **Automatically retrieve game directory**| ✅
+-    | **Automatic memory volume selection**| ❌
+-    | **Background music adjustment control**| ❌
+-    | **Play background music**    | ✅
+-    | **Plugin duplicate detection**    | ✅
+-    | **Clean up installation residues**    | ✅
+-    | **Adjust plugin sound**    | ✅
+-    | **Automatically activate plugins**    | ✅
+
+### 7.About us
+- Welcome to join China ACC Team!
+- Q:466438938
