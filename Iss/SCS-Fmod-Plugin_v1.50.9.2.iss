@@ -12,10 +12,10 @@
 ; -100:安装残留清除失败
 #define DefaultDir "D:\SteamLibrary\steamapps\common\Euro Truck Simulator 2"
 #define FileName "[线上可用]TruckersMP声音导航_v1.50.9.2_v1.50.4.0s"
-#define MyAppName "ts-fmod-plugin"
+#define MyAppName "SCS-Fmod-Plugin"
 #define MyAppVersion "1.50.9.2"
 #define MyAppPublisher "dariowouters&SmallHy"
-#define MyAppURL "https://github.com/dariowouters/ts-fmod-plugin"
+#define MyAppURL "https://github.com/SmallHy6/SCS-Fmod-Plugin"
 #define MyTextureDir "..\Texture"
 #define MyOutDir "..\Releases"
 #define MyPkgDir "..\Resources"
