@@ -1,21 +1,17 @@
 ﻿简介:
-        ts-fmod-plugin是一款为_欧洲卡车模拟2_TMP联机打造的声音导航插件
+        SCS-Fmod-Plugin是一款为_欧洲卡车模拟2_TMP联机打造的声音导航插件
 [重要]使用说明见原作者地址或插件文件夹内说明文件!
 #1
 必须确保您的欧卡内"音频/导航声音数值=0"且确保您已启用语音导航[音频/语音导航复选框]
 #2
 更换导航只需再次运行本软件即可!
-原作者地址:
-https://github.com/dariowouters/ts-fmod-plugin
-转载:
-SmallHy
+软件地址:
+https://github.com/SmallHy6/SCS-Fmod-Plugin
 
-Ts fmod plugin is an open source file
+SCS-Fmod-Plugin is an open source file
 [Important!]Please read <Plugin/ts-fmod-plugin/Readme.md>You can open it by Notepad
-Original author's address:
-https://github.com/dariowouters/ts-fmod-plugin
-reprint author:
-SmallHy
+Author's address:
+https://github.com/SmallHy6/SCS-Fmod-Plugin
 
 Updata Log:
 *1.48.1.0
@@ -80,7 +76,7 @@ Updata Log:
 ·优化安装体验:自动激活导航
 ·优化安装体验:安装音乐
 
-*1.50.9.1
+*1.50.9.2
 ·优化安装体验:插件迁移系统
 ·优化安装体验:音量选择
 ·优化程序启动速度
