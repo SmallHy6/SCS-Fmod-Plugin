@@ -11,7 +11,7 @@
 ; -61:组件声音写入失败
 ; -100:安装残留清除失败
 #define DefaultDir "D:\SteamLibrary\steamapps\common\Euro Truck Simulator 2"
-#define FileName "[线上可用]TruckersMP声音导航_v1.51.0.1_v1.51.1.15s"
+#define FileName "[线上可用]TruckersMP声音导航_v1.51.0.1_v1.51.x"
 #define MyAppName "SCS-Fmod-Plugin"
 #define MyAppVersion "1.51.0.1"
 #define MyAppPublisher "dariowouters&SmallHy"
