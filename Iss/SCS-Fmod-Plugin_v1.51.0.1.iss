@@ -20,7 +20,7 @@
 #define MyOutDir "..\Releases"
 #define MyPkgDir "..\Resources"
 #define MySourceDir ".."
-#define MyUninstDir "{app}\bin\win_x64\plugins\ts-fmod-plugin\Uninst"
+#define MyUninstDir "{app}\bin\win_x64\plugins\ts-fmod-plugin\Uninst".
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
