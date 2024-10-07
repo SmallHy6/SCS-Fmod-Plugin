@@ -101,7 +101,7 @@
 - Engine
 - Interior
 - Navigation
-### 6.支持的功能
+### 6.Supported functions
 -    | **Plugin installation directory detection**| ✅
 -    | **Automatically retrieve game directory**| ✅
 -    | **Automatic memory volume selection**| ❌
